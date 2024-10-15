@@ -1,30 +1,37 @@
 export const dataRegions = [
   {
-    location: "Les Trois Vallées, Savoie, France ",
+    location: "Les Trois Vallées, France",
     photo: "src/assets/regions/dominik-luckmann-cPZ6W552qHA-unsplash.jpg",
+    url: "https://unsplash.com/photos/snow-covered-mountain-under-blue-sky-during-daytime-cPZ6W552qHA",
   },
   {
     location: "Les Portes du Soleil, Switzerland",
     photo: "src/assets/regions/reese-braam-nwTRdVTcaMY-unsplash.jpg",
+    url: "https://unsplash.com/photos/a-group-of-people-skiing-down-a-snowy-slope--XfmUvcY8XY",
   },
   {
     location: "Ski Arlberg, Austria",
     photo: "src/assets/regions/kate-banar-qE5Crd9hLgc-unsplash.jpg",
+    url: "https://unsplash.com/photos/a-man-riding-skis-down-a-snow-covered-slope-qE5Crd9hLgc",
   },
   {
     location: "Vail, USA",
     photo: "src/assets/regions/pedro-slinger-gKwpz_MR4b0-unsplash.jpg",
+    url: "https://unsplash.com/photos/a-person-riding-a-snowboard-down-a-snow-covered-slope-gKwpz_MR4b0",
   },
   {
-    location: "Via Lattea, Italy",
-    photo: "src/assets/regions/Sestriere_at_Vialattea.jpg",
+    location: "Dolomiti di Brenta, Italy",
+    photo: "src/assets/regions/iulia-topan-UEt6dQh-hg-unsplash.jpg",
+    url: "https://unsplash.com/photos/mountain-covered-with-snow-UEt6dQh--hg",
   },
   {
     location: "Whistler Blackcomb, Canada",
     photo: "src/assets/regions/benjamin-hayward-F-GoFKNNTW8-unsplash.jpg",
+    url: "https://unsplash.com/photos/a-mountain-is-reflected-in-the-still-water-of-a-lake-F-GoFKNNTW8",
   },
   {
     location: "Niseko United, Japan",
-    photo: "src/assets/regions/niseko-united-gondola-mt-yotei.jpg",
+    photo: "src/assets/regions/marek-okon-wabN84HFDjU-unsplash.jpg",
+    url: "https://unsplash.com/photos/snow-covered-mountain-wabN84HFDjU",
   },
 ];
