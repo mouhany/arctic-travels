@@ -23,7 +23,7 @@ function Header() {
     <header
       className={`${
         isScrolled
-          ? "text-slate-800 backdrop-blur-xl transition-colors duration-500 ease-in-out"
+          ? "text-slate-800 backdrop-blur-xl transition-colors duration-500 ease-in-out shadow-sm"
           : "text-slate-300"
       } ${
         hideMenu
@@ -33,7 +33,9 @@ function Header() {
     >
       <div className="max-w-screen-2xl mx-auto flex flex-col gap-12 md:flex-row md:items-center justify-between">
         <div className="flex flex-row justify-between items-center">
-          <h1 className="serif text-2xl">Arctic Travels</h1>
+          <h1 className="serif text-2xl">
+            <a href="/">Arctic Travels</a>
+          </h1>
           <button
             className="md:hidden rounded-full"
             aria-label={hideMenu ? "Open menu" : "Close menu"}

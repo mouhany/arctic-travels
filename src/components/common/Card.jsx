@@ -4,17 +4,17 @@ function Card(props) {
   console.log(props.photo);
   return (
     <div className="shadow-md flex flex-col lg:flex-row rounded-3xl bg-white overflow-hidden max-w-md lg:max-w-lg">
-      <div className="lg:w-64">
+      <a href={props.url} target="_blank" className="lg:w-64">
         <img
           src={props.photo}
           alt={props.title}
           className="aspect-video lg:aspect-[3/4] w-full h-full object-cover object-center"
         />
-      </div>
+      </a>
       <div className="flex flex-col gap-3 p-6 text-sm">
         <div className="flex flex-row gap-6 items-center">
           <HomeIcon className="size-3" />
-          <a href={props.url}>{props.title}</a>
+          <p>{props.title}</p>
         </div>
         <div className="flex flex-row gap-6 items-center">
           <MapPinIcon className="size-3" />

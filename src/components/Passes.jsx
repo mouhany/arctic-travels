@@ -1,6 +1,6 @@
 function Passes() {
   return (
-    <div>
+    <section id="passes">
       <h3 className="title">Get the Best Deals on Ski Passes</h3>
       <div>
         <p>
@@ -11,7 +11,7 @@ function Passes() {
         </p>
       </div>
       <button className="cta text-lg">Get your pass now</button>
-    </div>
+    </section>
   );
 }
 
