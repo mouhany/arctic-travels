@@ -1,16 +1,25 @@
+import passesImage from "../assets/nicolai-berntsen-VXiG4N229uY-unsplash.png";
+import Description from "./common/Description";
+import { passesText } from "./data/passesText";
+
+const descPasses = <Description {...passesText} />;
+
 function Passes() {
   return (
-    <section id="passes">
-      <h3 className="title">Get the Best Deals on Ski Passes</h3>
-      <div>
-        <p>
-          Skip the lines and get straight to the slopes. We offer exclusive
-          deals on ski passes that give you access to the best runs at
-          unbeatable prices. Whether you’re staying for a day or the entire
-          season, we have the right pass to fit your needs.
-        </p>
+    <section
+      id="passes"
+      className="mx-auto flex flex-col lg:flex-row w-full items-center justify-center min-h-screen"
+    >
+      <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
+        {descPasses}
       </div>
-      <button className="cta text-lg">Get your pass now</button>
+      <a
+        href="https://unsplash.com/photos/person-skiing-on-snow-with-gear-set-VXiG4N229uY"
+        target="_blank"
+        className="w-full lg:w-1/2 h-full"
+      >
+        <img src={passesImage} alt="Passes" className="" />
+      </a>
     </section>
   );
 }

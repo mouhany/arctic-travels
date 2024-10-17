@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div>Footer</div>
+    <section className="bg-[#103b50] text-slate-300">Footer</section>
   )
 }
 
