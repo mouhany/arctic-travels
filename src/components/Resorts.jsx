@@ -13,8 +13,8 @@ function Resorts() {
         className="p-6 flex flex-col lg:flex-row items-center justify-center gap-12 min-h-screen bg-cover bg-center z-0"
         style={{ backgroundImage: `url(${resortsImage})` }}
       >
-        <div className="md:w-3/4">image</div>
         {descResorts}
+        <div className="md:w-3/4">image</div>
       </section>
     </>
   );
