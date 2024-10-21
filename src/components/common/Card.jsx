@@ -1,9 +1,8 @@
 import { HomeIcon, MapPinIcon, StarIcon } from "@heroicons/react/24/outline";
 
 function Card(props) {
-  console.log(props.photo);
   return (
-    <div className="shadow-md flex flex-col lg:flex-row rounded-3xl bg-white overflow-hidden max-w-md lg:max-w-lg">
+    <div className="shadow-md flex flex-col lg:flex-row rounded-3xl bg-white overflow-hidden max-w-md lg:max-w-lg lg:hover:scale-105 transition duration-150 ease-out">
       <a href={props.url} target="_blank" className="lg:w-64">
         <img
           src={props.photo}
