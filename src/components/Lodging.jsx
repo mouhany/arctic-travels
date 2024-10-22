@@ -38,9 +38,7 @@ function Lodging() {
             >
               <ChevronLeftIcon className="size-6" />{" "}
             </button>
-            <div className="flex flex-col gap-6 pb-20 lg:pb-0">
-              <Card key={current} index={current} {...lodgingData[current]} />
-            </div>
+            <Card key={current} index={current} {...lodgingData[current]} />
             <button
               aria-label="Next"
               className="rounded-full p-3"

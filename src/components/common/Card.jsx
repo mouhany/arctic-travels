@@ -2,7 +2,7 @@ import { HomeIcon, MapPinIcon, StarIcon } from "@heroicons/react/24/outline";
 
 function Card(props) {
   return (
-    <div className="shadow-md flex flex-col lg:flex-row rounded-3xl bg-white overflow-hidden max-w-md lg:max-w-lg lg:hover:scale-105 transition duration-150 ease-out">
+    <div className="mb-20 lg:mb-0 shadow-md flex flex-col lg:flex-row rounded-3xl bg-white overflow-hidden lg:max-w-lg lg:hover:scale-105 transition duration-150 ease-out">
       <a href={props.url} target="_blank" className="lg:w-64">
         <img
           src={props.photo}
@@ -23,7 +23,7 @@ function Card(props) {
           <StarIcon className="size-3" />
           <p>{props.rating}</p>
         </div>
-        <p className="text-sm max-w-prose">{props.brief}</p>
+        <p className="text-sm 2xl:max-w-prose">{props.brief}</p>
       </div>
     </div>
   );

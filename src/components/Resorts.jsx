@@ -1,5 +1,4 @@
-import resortsImage from "../assets/sonalika-vakili-jIf8o8tG_DQ-unsplash.jpg";
-import resortsImage2 from "../assets/david-klein-tmHFxb0G6i8-unsplash.jpg";
+import resortsImage from "../assets/david-klein-tmHFxb0G6i8-unsplash.jpg";
 import Description from "./common/Description";
 import { resortsText } from "./data/resortsText";
 import Slideshow from "./common/Slideshow";
@@ -23,21 +22,22 @@ function Resorts() {
       <div className="absolute w-full bg-gradient-to-b from-transparent via-[#d7dbdf] to-transparent h-40 z-10 -mt-20"></div>
       <section
         id="resorts"
-        className="flex flex-col lg:flex-row items-center justify-center gap-12 min-h-screen bg-cover bg-center z-0"
-        style={{ backgroundImage: `url(${resortsImage2})` }}
+        className="py-12 md:py-24 min-h-screen 2xl:min-h-full bg-cover bg-center w-full flex"
+        style={{ backgroundImage: `url(${resortsImage})` }}
       >
-        <div className="w-full bg-neutral-50/50">
-          <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-12">
-            <div className="border border-red-600 md:max-w-prose lg:w-2/5 w-full">
-              {descResorts}
-            </div>
-            <ul className="relative border border-red-600 lg:w-3/5 w-full">
+        <div className="w-full md:bg-neutral-50/30 lg:my-12 2xl py-24 2xl:py-36 flex">
+          <div className="w-full max-w-screen-2xl mx-auto flex flex-col lg:flex-row lg:gap-12 items-center justify-center">
+            <div className="w-full md:max-w-prose lg:w-2/5">{descResorts}</div>
+
+            <ul className="relative w-full h-full lg:w-3/5 flex flex-col gap-3">
               {resortsData.map((resort, index) => (
                 <li
                   key={index}
                   className={`${
-                    index === current ? "opacity-100" : "opacity-0"
-                  } px-6 py-9 absolute inset-0 transition-opacity duration-500 ease-out`}
+                    index === current
+                      ? "opacity-100 absolute"
+                      : "opacity-0 absolute"
+                  } lg:top-1/2 lg:transform lg:-translate-y-1/2 transition-opacity duration-500 ease-out`}
                 >
                   <Slideshow index={index} {...resort} />
                 </li>
