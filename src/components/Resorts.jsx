@@ -25,7 +25,7 @@ function Resorts() {
         className="py-12 md:py-24 min-h-screen 2xl:min-h-full bg-cover bg-center w-full flex items-center justify-center"
         style={{ backgroundImage: `url(${resortsImage})` }}
       >
-        <div className="w-full lg:bg-neutral-50/30 lg:my-12 flex h-full justify-center items-center lg:py-12">
+        <div className="w-full lg:bg-neutral-50/50 lg:my-12 flex h-full justify-center items-center lg:py-12">
           <div className="w-full max-w-screen-2xl mx-auto flex flex-col lg:flex-row lg:gap-12 items-center justify-center">
             <div className="w-full md:max-w-prose lg:w-2/5">{descResorts}</div>
 

@@ -23,7 +23,7 @@ function Card(props) {
           <StarIcon className="size-3" />
           <p>{props.rating}</p>
         </div>
-        <p className="text-sm 2xl:max-w-prose">{props.brief}</p>
+        <p className="text-sm lg:max-w-prose">{props.brief}</p>
       </div>
     </div>
   );

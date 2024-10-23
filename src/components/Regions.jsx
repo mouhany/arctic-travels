@@ -22,7 +22,7 @@ function Regions() {
             {descRegions}
           </div>
 
-          <div className="relative w-full lg:w-3/5 overflow-hidden flex flex-col gap-3 lg:py-9 2xl:rounded-r-3xl md:rounded-l-3xl md:rounded-r-none lg:bg-neutral-200 ">
+          <div className="relative w-full lg:w-3/5 overflow-hidden flex flex-col gap-3 lg:py-9 2xl:rounded-r-3xl md:rounded-l-3xl md:rounded-r-none lg:bg-neutral-200">
             <h4 className="subtitle px-6 z-20">
               Some of our most popular destinations:
             </h4>
