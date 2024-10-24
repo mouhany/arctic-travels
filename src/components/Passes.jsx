@@ -3,27 +3,29 @@ import Description from "./common/Description";
 import { passesText } from "./data/passesText";
 import Hoverable from "./common/Hoverable";
 import { passesData } from "./data/passesData";
-
-const descPasses = <Description {...passesText} />;
-
-const allPasses = passesData.map((pass, index) => (
-  <Hoverable key={index} index={index} {...pass} />
-  // <div className="w-36">
-  //   <img
-  //     src={pass.photo}
-  //     alt={pass.activity}
-  //     className="aspect-[3/4] w-full h-full object-cover object-center rounded-3xl lg:hover:scale-105"
-  //   />
-  // </div>
-));
+import { useState } from "react";
 
 function Passes() {
+  const [hovered, setHovered] = useState(null);
+
+  const descPasses = <Description {...passesText} />;
+
+  const allPasses = passesData.map((pass, index) => (
+    <Hoverable
+      key={index}
+      index={index}
+      hovered={hovered}
+      setHovered={setHovered}
+      {...pass}
+    />
+  ));
+
   return (
     <>
       <div className="absolute w-full bg-gradient-to-b from-transparent via-[#d7dbdf] to-transparent h-40 z-10 -mt-20"></div>
       <section
         id="passes"
-        className="py-12 min-h-screen bg-cover bg-center w-full flex items-center justify-center"
+        className="-mb-6 py-12 min-h-screen bg-cover bg-center w-full flex items-center justify-center"
         style={{ backgroundImage: `url(${passesImage})` }}
       >
         <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row-reverse w-full items-center justify-center min-h-screen">
@@ -34,14 +36,6 @@ function Passes() {
             {allPasses}
           </ul>
         </div>
-
-        {/* <a
-          href="https://unsplash.com/photos/person-skiing-on-snow-with-gear-set-VXiG4N229uY"
-          target="_blank"
-          className="w-full lg:w-1/2 h-full"
-        >
-          <img src={passesImage} alt="Passes" className="" />
-        </a> */}
       </section>
     </>
   );

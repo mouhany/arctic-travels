@@ -29,7 +29,7 @@ function Header() {
         hideMenu
           ? ""
           : "backdrop-blur-xl transition-colors duration-500 ease-in-out"
-      } z-50 fixed w-full p-6`}
+      } z-50 fixed w-full p-6 rounded-b-3xl`}
     >
       <div className="max-w-screen-2xl mx-auto flex flex-col gap-12 md:flex-row md:items-center justify-between">
         <div className="flex flex-row justify-between items-center">

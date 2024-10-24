@@ -6,10 +6,10 @@ import Card from "./common/Card";
 import { useState } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
-const descLodging = <Description {...lodgingText} />;
-
 function Lodging() {
   const [current, setCurrent] = useState(0);
+
+  const descLodging = <Description {...lodgingText} />;
 
   return (
     <>

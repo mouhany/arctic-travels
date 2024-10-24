@@ -3,13 +3,13 @@ import { regionsText } from "./data/regionsText";
 import Carousel from "./common/Carousel";
 import { regionsData } from "./data/regionsData";
 
-const allRegions = regionsData.map((region, index) => (
-  <Carousel key={index} index={index} {...region} />
-));
-
-const descRegions = <Description {...regionsText} />;
-
 function Regions() {
+  const descRegions = <Description {...regionsText} />;
+
+  const allRegions = regionsData.map((region, index) => (
+    <Carousel key={index} index={index} {...region} />
+  ));
+
   return (
     <>
       <div className="absolute w-full bg-gradient-to-b from-transparent to-offwhite -mt-20 h-20 z-10"></div>

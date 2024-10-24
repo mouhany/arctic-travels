@@ -5,10 +5,10 @@ import Slideshow from "./common/Slideshow";
 import { resortsData } from "./data/resortsData";
 import { useState, useEffect } from "react";
 
-const descResorts = <Description {...resortsText} />;
-
 function Resorts() {
   const [current, setCurrent] = useState(0);
+  
+  const descResorts = <Description {...resortsText} />;
 
   useEffect(() => {
     const interval = setInterval(() => {
