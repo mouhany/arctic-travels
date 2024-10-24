@@ -1,4 +1,4 @@
-import resortsImage from "../assets/david-klein-tmHFxb0G6i8-unsplash.jpg";
+import resortsImage from "/assets/david-klein-tmHFxb0G6i8-unsplash.jpg";
 import Description from "./common/Description";
 import { resortsText } from "./data/resortsText";
 import Slideshow from "./common/Slideshow";

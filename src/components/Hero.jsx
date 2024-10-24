@@ -1,4 +1,4 @@
-import heroImage from "../assets/valentin-kremer-2SEflfgjwCQ-unsplash.jpg";
+import heroImage from "/assets/valentin-kremer-2SEflfgjwCQ-unsplash.jpg";
 
 function Hero() {
   return (

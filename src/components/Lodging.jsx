@@ -1,4 +1,4 @@
-import lodgingImage from "../assets/edoardo-busti-s0rShYnmtEI-unsplash.jpg";
+import lodgingImage from "/assets/edoardo-busti-s0rShYnmtEI-unsplash.jpg";
 import Description from "./common/Description";
 import { lodgingText } from "./data/lodgingText";
 import { lodgingData } from "./data/lodgingData";

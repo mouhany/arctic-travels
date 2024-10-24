@@ -1,4 +1,4 @@
-import passesImage from "../assets/michael-shannon-EjTQKin2Z2s-unsplash.jpg";
+import passesImage from "/assets/michael-shannon-EjTQKin2Z2s-unsplash.jpg";
 import Description from "./common/Description";
 import { passesText } from "./data/passesText";
 import Hoverable from "./common/Hoverable";
