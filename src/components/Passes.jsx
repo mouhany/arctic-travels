@@ -29,9 +29,10 @@ function Passes() {
         style={{ backgroundImage: `url(${passesImage})` }}
       >
         <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row-reverse w-full items-center justify-center min-h-screen">
-          <div className="px-6 w-full lg:w-2/5 flex flex-col justify-center items-center md:max-w-prose">
+          <div className="w-full md:max-w-prose lg:w-2/5 flex flex-col justify-center items-center">
             {descPasses}
           </div>
+
           <ul className="p-6 w-full lg:w-3/5 flex flex-row flex-wrap gap-6 items-center justify-center overflow-x-auto lg:rounded-3xl bg-gradient-to-b from-transparent to-slate-50/50">
             {allPasses}
           </ul>

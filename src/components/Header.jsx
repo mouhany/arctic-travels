@@ -23,7 +23,7 @@ function Header() {
     <header
       className={`${
         isScrolled
-          ? "text-slate-800 backdrop-blur-xl transition-colors duration-500 ease-in-out shadow-sm"
+          ? "text-slate-800 backdrop-blur-xl bg-slate-50/20 transition-colors duration-500 ease-in-out shadow-sm"
           : "text-slate-300"
       } ${
         hideMenu

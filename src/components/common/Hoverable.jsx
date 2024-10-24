@@ -1,7 +1,7 @@
 function Hoverable(props) {
   return (
     <li
-      className="relative w-36 md:w-40 2xl:w-48 rounded-3xl shadow-md lg:hover:scale-105"
+      className="relative w-36 md:w-40 xl:w-40 2xl:w-48 rounded-3xl shadow-md lg:hover:scale-105"
       onMouseEnter={() => props.setHovered(props.index)}
       onMouseLeave={() => props.setHovered(null)}
     >

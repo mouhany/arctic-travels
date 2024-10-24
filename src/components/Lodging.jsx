@@ -25,8 +25,9 @@ function Lodging() {
         >
           <img src={lodgingImage} alt="Lodging" className="mix-blend-darken" />
         </a>
+
         <div className="-mt-24 sm:-mt-48 lg:mt-0 lg:-ms-24 z-20 flex flex-col gap-6 w-full lg:w-1/2 items-center">
-          <div className="max-w-prose">{descLodging}</div>
+          <div className="w-full md:max-w-prose">{descLodging}</div>
 
           <div className="flex flex-row gap-3 items-center">
             <button
