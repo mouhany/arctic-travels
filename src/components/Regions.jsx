@@ -23,12 +23,12 @@ function Regions() {
           </div>
 
           <div className="relative w-full lg:w-3/5 overflow-hidden flex flex-col gap-3 lg:py-9 2xl:rounded-r-3xl md:rounded-l-3xl md:rounded-r-none lg:bg-neutral-200">
-            <h4 className="subtitle px-6 z-20">
+            <h4 className="subtitle px-6 z-40">
               Some of our most popular destinations:
             </h4>
-            <div className="sm:z-10 md:block absolute top-0 left-0 w-12 h-full bg-gradient-to-r from-offwhite lg:from-neutral-200 to-transparent"></div>
-            <div className="sm:z-10 md:block absolute top-0 right-0 w-12 h-full bg-gradient-to-r from-transparent to-offwhite lg:to-neutral-200"></div>
-            <ul className="z-0 flex flex-row gap-6 overflow-x-auto px-6">
+            <div className="sm:z-30 md:block absolute top-0 left-0 w-12 h-full bg-gradient-to-r from-offwhite lg:from-neutral-200 to-transparent"></div>
+            <div className="sm:z-30 md:block absolute top-0 right-0 w-12 h-full bg-gradient-to-r from-transparent to-offwhite lg:to-neutral-200"></div>
+            <ul className="z-20 flex flex-row gap-6 overflow-x-auto px-6">
               {allRegions}
             </ul>
           </div>

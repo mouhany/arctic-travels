@@ -1,9 +1,9 @@
 import {
-    faInstagram,
-    faXTwitter,
-    faFacebook,
-    faLinkedin,
-  } from "@fortawesome/free-brands-svg-icons";
+  faInstagram,
+  faXTwitter,
+  faFacebook,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const footerSocials = [
   {

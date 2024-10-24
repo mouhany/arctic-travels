@@ -16,6 +16,7 @@ function Hero() {
             professionals.
           </h2>
         </div>
+
         <button className="cta md:self-start self-center text-xl md:text-2xl">
           Book Here
         </button>

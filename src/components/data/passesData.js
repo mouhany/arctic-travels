@@ -58,5 +58,5 @@ export const passesData = [
     activity: "Snowmobile Tours",
     photo: "src/assets/passes/nate-johnston-TBRVu6ScH6c-unsplash.jpg",
     url: "https://unsplash.com/photos/snowmobile-speeding-on-snow-near-tree-lines-TBRVu6ScH6c",
-  }
+  },
 ];
